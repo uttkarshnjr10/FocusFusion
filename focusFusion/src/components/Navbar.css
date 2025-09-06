@@ -1,0 +1,60 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #275786;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Join Us Button - Vibrant Coral Red */
+  .join-btn {
+    background: #F39C12;  /* Vibrant Orange */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .join-btn:hover {
+    background: #75716c;  /* Darker shade for hover */
+  }
+  
+  
+  /* About Us Button - Elegant Navy Blue */
+  .about-btn {
+    background: #0A2239;  /* Deep Navy Blue */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .about-btn:hover {
+    background: #051727;  /* Darker Navy */
+  }
+  .text{
+    font-size: x-large;
+    font-weight: bold;
+  }
